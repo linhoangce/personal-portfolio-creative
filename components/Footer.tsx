@@ -64,7 +64,7 @@ export default async function Footer() {
                             <FaGithub />
                         </PrismicNextLink>
                     )}
-                    {isFilled.link(settings.data.twitter_link) && (
+                    {/* {isFilled.link(settings.data.twitter_link) && (
                         <PrismicNextLink
                         field={settings.data.twitter_link}
                         className="p-2 text-2xl text-slate-300 transition-all duration-150 hover:scale-125 hover:text-yellow-400"
@@ -72,7 +72,7 @@ export default async function Footer() {
                         >
                             <FaTwitter />
                         </PrismicNextLink>
-                    )}
+                    )} */}
                     {isFilled.link(settings.data.linkedin_link) && (
                         <PrismicNextLink
                         field={settings.data.linkedin_link}
